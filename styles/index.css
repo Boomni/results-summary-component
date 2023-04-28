@@ -1,10 +1,17 @@
-.main_content {
+body {
 	display: flex;
-	height: 50%;
-	justify-content: center;
-	align-items: center;
-	height: 750px;
-	width: 100%
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.main_content {
+	    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    width: 100%;
+    margin-top: 200px;
+    margin-bottom: 200px;
 }
 .result {
 	    width: 250px;
@@ -37,3 +44,4 @@ footer {
 	align-items: center;
     background: paleturquoise;
 }
+
